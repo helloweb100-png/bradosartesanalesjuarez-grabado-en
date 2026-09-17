@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grabados Artesanales Juarez graba vidrio y ceramica con sandblast para empresas y el sector turistico. Souvenirs y regalos personalizados con tu logo o diseno.</title>
-  <meta name="description" content="Grabados Artesanales Juarez graba vidrio y ceramica con sandblast para empresas y el sector turistico. Souvenirs y regalos personalizados con tu logo o diseno.">
+  <title>Grabados artesanales JUAREZ</title>
+  <meta name="description" content="Grabado artesanal en vidrio y cerámica con técnica sandblast. Piezas personalizadas para negocios, souvenirs y regalos empresariales.">
   <meta name="keywords" content="grabado en vidrio, grabado en ceramica, sandblast, souvenirs personalizados, regalos empresariales, grabado para hoteles, articulos turisticos personalizados, grabado artesanal, Juarez grabados">
-  <meta name="author" content="Brados artesanales JUAREZ">
+  <meta name="author" content="Grabados artesanales JUAREZ">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#050506">
-  <meta property="og:title" content="Grabados Artesanales Juarez graba vidrio y ceramica con sandblast para empresas y el sector turistico. Souvenirs y regalos personalizados con tu logo o diseno.">
-  <meta property="og:description" content="Grabados Artesanales Juarez graba vidrio y ceramica con sandblast para empresas y el sector turistico. Souvenirs y regalos personalizados con tu logo o diseno.">
+  <meta property="og:title" content="Grabados artesanales JUAREZ">
+  <meta property="og:description" content="Grabado artesanal en vidrio y cerámica con técnica sandblast. Piezas personalizadas para negocios, souvenirs y regalos empresariales.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="es_MX">
-  <meta property="og:image" content="logo.jpg">
-  <link rel="icon" type="image/png" href="logo.jpg">
-  <link rel="apple-touch-icon" href="logo.jpg">
+  <meta property="og:image" content="logo.svg">
+  <link rel="icon" type="image/svg+xml" href="logo.svg">
+  <link rel="apple-touch-icon" href="logo.svg">
   <script>document.documentElement.classList.add("js","is-loading");</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;600;700&family=Work+Sans:wght@300;400;500;600;700&family=Oswald:wght@500;600;700&display=swap">
 <style>
@@ -952,7 +952,7 @@ body.is-ready .hero-eyebrow::after {
   position: absolute;
   inset: 0;
   z-index: 0;
-  background: url("img/1.jpg") center center / cover no-repeat;
+  background: url("img/1.jpg") center 20% / cover no-repeat;
   background-attachment: fixed;
   opacity: 0;
   transition: opacity 1.8s ease;
@@ -1232,7 +1232,7 @@ main section[id] {
   position: absolute;
   inset: 0;
   z-index: 0;
-  background-position: center center;
+  background-position: center 20%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1319,6 +1319,21 @@ main section[id] {
   font-weight: 700;
   line-height: 1;
   letter-spacing: -0.01em;
+}
+
+.section-title,
+.service-title,
+.timeline-card h3,
+.parallax-content h2 {
+  transition: transform 0.45s var(--ease-out), text-shadow 0.45s ease, color 0.35s ease;
+}
+
+.section-title:hover,
+.service-title:hover,
+.timeline-card:hover h3,
+.parallax-content h2:hover {
+  transform: translate3d(0, -4px, 0);
+  text-shadow: 0 12px 34px color-mix(in srgb, var(--red) 24%, transparent);
 }
 
 .section-desc {
@@ -1408,6 +1423,7 @@ main section[id] {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 15%;
   filter: contrast(1.02) brightness(1.04);
 }
 
@@ -1544,7 +1560,7 @@ main section[id] {
 .parallax-bg {
   position: absolute;
   inset: 0;
-  background-position: center center;
+  background-position: center 20%;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1770,6 +1786,7 @@ main section[id] {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 15%;
   filter: contrast(1.02) brightness(1.03);
 }
 
@@ -2908,6 +2925,14 @@ main section[id] {
 }
 
 @media (max-width: 400px) {
+  .brand-name {
+    font-size: 0.95rem;
+  }
+
+  .brand-tagline {
+    display: none;
+  }
+
   .nav-link {
     font-size: 1.45rem;
     padding: 17px 2px;
@@ -3157,7 +3182,7 @@ main section[id] {
     <div class="loader-texture" aria-hidden="true"></div>
     <div class="loader-inner">
       <div class="loader-mark">
-        <img src="logo.jpg" alt="" class="loader-logo">
+        <img src="logo.svg" alt="" class="loader-logo">
       </div>
       <div class="loader-rings" aria-hidden="true">
         <span></span><span></span><span></span>
@@ -3172,10 +3197,10 @@ main section[id] {
   
 <header class="site-header" id="site-header">
     <div class="container header-inner">
-      <a href="#inicio" class="brand" aria-label="Brados artesanales JUAREZ">
-        <span class="brand-mark"><img src="logo.jpg" alt="Brados artesanales JUAREZ" class="brand-logo"></span>
+      <a href="#inicio" class="brand" aria-label="Grabados artesanales JUAREZ">
+        <span class="brand-mark"><img src="logo.svg" alt="Grabados artesanales JUAREZ" class="brand-logo"></span>
         <span class="brand-text">
-          <span class="brand-name">Brados artesanales JUAREZ</span>
+          <span class="brand-name">Grabados artesanales JUAREZ</span>
           <span class="brand-tagline">Grabado en vidrio y ceramica con sandblast</span>
         </span>
       </a>
@@ -3213,7 +3238,7 @@ main section[id] {
           <span class="hero-typewriter-label">Grabamos para:</span>
           <span class="typewriter-word" id="typewriter"></span><span class="typewriter-cursor" aria-hidden="true"></span>
         </p>
-        <p class="hero-desc" data-hero="5">Grabamos vidrio y ceramica con sandblast para negocios del sector turistico y empresarial. Cada pieza lleva tu logo o diseno con acabado preciso y duradero, listo para regalar o vender.</p>
+        <p class="hero-desc" data-hero="5">Grabamos vidrio y cerámica con sandblast: el diseño se marca por abrasión controlada sobre la superficie, sin tinta ni calcomanía. El resultado es una textura fina, permanente y clara para souvenirs, regalos empresariales y piezas personalizadas.</p>
         <div class="hero-cta" data-hero="6">
           <button type="button" class="btn btn-primary btn-lg" data-wa-trigger>
             <svg viewBox="0 0 24 24" class="btn-icon" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m0 1.8a8.1 8.1 0 0 1 5.75 2.38 8.07 8.07 0 0 1 2.38 5.73c0 4.48-3.65 8.12-8.14 8.12a8.1 8.1 0 0 1-4.13-1.13l-.3-.17-3.12.82.83-3.04-.19-.31a8.06 8.06 0 0 1-1.24-4.31c0-4.48 3.65-8.09 8.16-8.09m-4.48 4.19c-.15 0-.4.06-.6.28-.21.23-.8.77-.8 1.89s.82 2.2.93 2.35c.11.15 1.6 2.5 3.95 3.44 1.94.79 2.35.63 2.77.6.42-.04 1.36-.55 1.55-1.09.19-.53.19-.99.13-1.09-.06-.09-.21-.15-.44-.26-.23-.12-1.36-.67-1.57-.75-.21-.08-.36-.12-.52.11-.15.23-.6.75-.73.9-.13.15-.27.17-.5.06-.23-.12-.96-.35-1.83-1.13-.68-.6-1.13-1.35-1.27-1.58-.13-.23-.01-.35.1-.47.11-.11.23-.27.35-.4.11-.14.15-.24.23-.4.08-.15.04-.3-.02-.42-.06-.11-.52-1.28-.72-1.74-.19-.46-.38-.4-.52-.4Z"/></svg>
@@ -3225,21 +3250,9 @@ main section[id] {
           </a>
         </div>
         <div class="hero-meta" data-hero="7">
-          <div class="hero-meta-item">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>
-            <span></span>
-          </div>
-          <div class="hero-meta-item">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16Zm.9-13H11v6l5.2 3.1.9-1.5-4.2-2.5Z"/></svg>
-            <span>Lunes a sabado, 9:00 a 19:00</span>
-          </div>
           <div class="hero-meta-item hero-meta-item--social">
-            <span class="hero-social-label">Siguenos aqui</span>
+            <span class="hero-social-label">Siguenos en Facebook</span>
             <div class="social-links">
-              <a href="https://wa.me/5566187873" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
-                <span class="social-link-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2c2.7 0 3.1 0 4.1.06 1.1.05 1.8.22 2.5.47.7.27 1.2.6 1.8 1.15.5.5.9 1.1 1.1 1.8.25.7.42 1.4.47 2.5.06 1 .06 1.4.06 4.1s0 3.1-.06 4.1c-.05 1.1-.22 1.8-.47 2.5-.27.7-.6 1.2-1.15 1.8a4.9 4.9 0 0 1-1.8 1.1c-.7.25-1.4.42-2.5.47-1 .06-1.4.06-4.1.06s-3.1 0-4.1-.06c-1.1-.05-1.8-.22-2.5-.47a4.9 4.9 0 0 1-1.8-1.15 4.9 4.9 0 0 1-1.1-1.8c-.25-.7-.42-1.4-.47-2.5C2 15.1 2 14.7 2 12s0-3.1.06-4.1c.05-1.1.22-1.8.47-2.5.27-.7.6-1.2 1.15-1.8.5-.5 1.1-.9 1.8-1.1.7-.25 1.4-.42 2.5-.47C8.9 2 9.3 2 12 2Zm0 2c-2.65 0-2.98 0-4.03.06-.86.04-1.33.18-1.64.3-.42.16-.72.35-1.03.66-.31.31-.5.61-.66 1.03-.12.31-.26.78-.3 1.64C4.28 9.02 4.28 9.35 4.28 12s0 2.98.06 4.03c.04.86.18 1.33.3 1.64.16.42.35.72.66 1.03.31.31.61.5 1.03.66.31.12.78.26 1.64.3 1.05.06 1.38.06 4.03.06s2.98 0 4.03-.06c.86-.04 1.33-.18 1.64-.3.42-.16.72-.35 1.03-.66.31-.31.5-.61.66-1.03.12-.31.26-.78.3-1.64.06-1.05.06-1.38.06-4.03s0-2.98-.06-4.03c-.04-.86-.18-1.33-.3-1.64a2.8 2.8 0 0 0-.66-1.03 2.8 2.8 0 0 0-1.03-.66c-.31-.12-.78-.26-1.64-.3C14.98 4 14.65 4 12 4Zm0 3.3A4.7 4.7 0 1 1 7.3 12 4.7 4.7 0 0 1 12 7.3Zm0 2A2.7 2.7 0 1 0 14.7 12 2.7 2.7 0 0 0 12 9.3Zm5.2-2.9a1.1 1.1 0 1 1-1.1-1.1 1.1 1.1 0 0 1 1.1 1.1Z"/></svg></span>
-                <span class="social-link-name">Instagram</span>
-              </a>
               <a href="https://www.facebook.com/share/1ZWfzThVN1/" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
                 <span class="social-link-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg></span>
                 <span class="social-link-name">Facebook</span>
@@ -3270,12 +3283,12 @@ main section[id] {
                 <span class="tag">Grabado en vidrio</span>
               </div>
               <h3 class="service-title" data-reveal>Piezas de vidrio grabadas con sandblast</h3>
-              <p class="service-desc" data-reveal>Grabamos copas, botellas, frascos y otros artículos de vidrio con diseños personalizados. Ideal para empresas que buscan regalos corporativos o tiendas de souvenirs con sello propio.</p>
+              <p class="service-desc" data-reveal>Grabamos vasos, tazas, frascos, botellas y piezas de vidrio con diseño personalizado. Preparamos la plantilla, protegemos la zona de reserva y aplicamos abrasivo a presión para lograr una marca mate, fina y uniforme.</p>
               <ul class="service-list">
-                <li data-reveal>Grabado permanente, no se borra ni se decolora</li>
+                <li data-reveal>Grabado permanente porque modifica la superficie</li>
                 <li data-reveal>Diseños personalizados por pieza o por lote</li>
                 <li data-reveal>Apto para artículos de vidrio de distintos grosores</li>
-                <li data-reveal>Acabado artesanal con técnica de sandblast</li>
+                <li data-reveal>Acabado mate con bordes definidos y textura táctil</li>
                 <li data-reveal>Resultados uniformes en producciones de volumen</li>
               </ul>
             </div>
@@ -3291,13 +3304,13 @@ main section[id] {
                 <span class="tag">Grabado en cerámica</span>
               </div>
               <h3 class="service-title" data-reveal>Cerámica grabada para regalo y souvenir</h3>
-              <p class="service-desc" data-reveal>Aplicamos la técnica del sandblast sobre tazas, platos, azulejos y piezas de cerámica. Perfecto para tiendas turísticas y negocios que quieren souvenirs con carácter regional.</p>
+              <p class="service-desc" data-reveal>Aplicamos sandblast sobre tazas, platos, azulejos y cerámica esmaltada o natural. Ajustamos presión, distancia y tiempo de exposición según el material para cuidar la pieza y conservar detalle en líneas delgadas.</p>
               <ul class="service-list">
                 <li data-reveal>Grabado sobre cerámica vidriada y sin vidriar</li>
                 <li data-reveal>Diseño adaptado al formato de cada pieza</li>
-                <li data-reveal>Ideal para souvenirs con motivos locales</li>
+                <li data-reveal>Ideal para logotipos, nombres, motivos locales y series turísticas</li>
                 <li data-reveal>Compatible con pedidos de piezas variadas</li>
-                <li data-reveal>Textura táctil visible en el acabado final</li>
+                <li data-reveal>Textura táctil visible sin depender de pintura o vinil</li>
               </ul>
             </div>
           </article>
@@ -3312,10 +3325,10 @@ main section[id] {
                 <span class="tag">Pedidos y atención</span>
               </div>
               <h3 class="service-title" data-reveal>Cómo trabajamos contigo desde el primer contacto</h3>
-              <p class="service-desc" data-reveal>Atendemos tanto a empresas como a negocios del sector turístico. Desde el diseño hasta la pieza terminada, acompañamos cada pedido para que el resultado sea exactamente lo que necesitas.</p>
+              <p class="service-desc" data-reveal>Atendemos pedidos para negocio, turismo y regalo personalizado. Revisamos el archivo o la idea, definimos material, cantidad y nivel de detalle, y hacemos una entrega revisada pieza por pieza.</p>
               <ul class="service-list">
                 <li data-reveal>Atención directa con el taller, sin intermediarios</li>
-                <li data-reveal>Trabajamos con diseño propio o del cliente</li>
+                <li data-reveal>Trabajamos con diseño propio, logotipo o referencia del cliente</li>
                 <li data-reveal>Pedidos individuales y por lote disponibles</li>
                 <li data-reveal>Cada pieza revisada antes de entregarse</li>
               </ul>
@@ -3324,7 +3337,7 @@ main section[id] {
         </div>
 
         <div class="services-cta" data-reveal>
-          <p>Si buscas un regalo o souvenir que realmente diga algo, hablemos. Grabados Artesanales Juárez está listo para trabajar tu proyecto.</p>
+          <p>Comparte tu diseño, cantidad y tipo de pieza; te orientamos para elegir el acabado sandblast más adecuado.</p>
           <button type="button" class="btn btn-primary" data-wa-trigger><span>Solicita tu cotización</span></button>
         </div>
       </div>
@@ -3359,7 +3372,7 @@ main section[id] {
             </span>
             <div class="timeline-card">
               <h3>Técnica sandblast con detalle fino</h3>
-              <p>Usamos sandblast para lograr grabados nítidos y duraderos en vidrio y cerámica, sin tintas ni calcomanías que se despeguen con el tiempo.</p>
+              <p>Trabajamos con plantilla de corte y chorro abrasivo controlado. Regulamos presión, distancia y ángulo para marcar la superficie con líneas limpias, tonos mate y profundidad pareja, sin usar tinta, vinil ni calcomanía.</p>
             </div>
           </li>
 
@@ -3369,8 +3382,8 @@ main section[id] {
               <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2 3 6v6c0 5.1 3.6 9.3 9 10 5.4-.7 9-4.9 9-10V6l-9-4Zm-1 14-4-4 1.4-1.4L11 13.2l5.6-5.6L18 9l-7 7Z"/></svg>
             </span>
             <div class="timeline-card">
-              <h3>Cotización sin rodeos el mismo día</h3>
-              <p>Nos manda su diseño o idea y le respondemos con precio y tiempos antes de que termine el día, sin formularios ni esperas innecesarias.</p>
+              <h3>Diseño preparado antes de grabar</h3>
+              <p>Antes de tocar la pieza revisamos medidas, proporción y zonas curvas. Así evitamos deformaciones y logramos que el logotipo o ilustración se lea bien en vidrio y cerámica.</p>
             </div>
           </li>
 
@@ -3380,8 +3393,8 @@ main section[id] {
               <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm0 2c-4.4 0-8 2.2-8 5v2h16v-2c0-2.8-3.6-5-8-5Z"/></svg>
             </span>
             <div class="timeline-card">
-              <h3>Trabajamos con pedidos para empresas</h3>
-              <p>Atendemos lotes para negocios y operadores turísticos: coordinamos volumen, uniformidad y entrega sin que usted tenga que perseguirnos.</p>
+              <h3>Pedidos para negocio y turismo</h3>
+              <p>Atendemos piezas individuales y lotes para tiendas, empresas y souvenirs regionales. Cuidamos que el acabado sea consistente cuando el pedido incluye varias piezas iguales.</p>
             </div>
           </li>
 
@@ -3392,7 +3405,7 @@ main section[id] {
             </span>
             <div class="timeline-card">
               <h3>El diseño queda grabado, no pegado</h3>
-              <p>El sandblast incide directamente en la superficie, así que el logotipo o motivo no se borra, no se raya ni se desprende con el uso cotidiano.</p>
+              <p>El sandblast desgasta de forma controlada la superficie. Por eso el diseño no depende de una capa externa que se desprenda: queda integrado al material con acabado mate y tacto visible.</p>
             </div>
           </li>
         </ol>
@@ -3412,7 +3425,7 @@ main section[id] {
             <p class="eyebrow" data-reveal>Lo que usted se lleva</p>
             <h2 class="section-title" data-reveal>Souvenirs que sus clientes guardan, no descartan</h2>
           </div>
-          <p class="section-desc" data-reveal>Deja de preocuparse por artículos genéricos que no dicen nada de su marca.</p>
+          <p class="section-desc" data-reveal>Piezas útiles, personalizadas y resistentes, hechas para representar una marca, un destino o un recuerdo con mejor presencia.</p>
         </div>
         <div class="brochures-grid" data-reveal-group>
           <figure class="brochure-item" data-reveal="media"><img src="img/6.jpg" alt="Souvenirs que sus clientes guardan, no descartan" loading="lazy"></figure>
@@ -3421,7 +3434,7 @@ main section[id] {
       </div>
     </section>
 <section class="parallax-banner parallax-banner--alt" data-parallax>
-      <div class="parallax-bg" style="background-image:url('img/8.jpg');" aria-hidden="true"></div>
+      <div class="parallax-bg" style="background-image:url('img/1.jpg');" aria-hidden="true"></div>
       <div class="parallax-overlay" aria-hidden="true"></div>
       <div class="container parallax-content">
         <p class="eyebrow" data-reveal>Nuestra forma de trabajar</p>
@@ -3435,41 +3448,41 @@ main section[id] {
             <p class="eyebrow" data-reveal>Nuestro trabajo</p>
             <h2 class="section-title" data-reveal>Cada pieza, <span class="text-gold">una huella propia</span></h2>
           </div>
-          <p class="section-desc" data-reveal>El sandblast deja una marca permanente sobre el vidrio y la cerámica. Aquí puede ver cómo trabajamos, qué materiales usamos y el resultado final que reciben nuestros clientes.</p>
+          <p class="section-desc" data-reveal>El sandblast crea un contraste mate sobre vidrio o cerámica. Aquí puede ver piezas terminadas, diseños regionales y ejemplos de acabado fino sobre superficies curvas.</p>
         </div>
         <div class="gallery-grid" data-reveal-group>
           <figure class="gallery-item" data-reveal="media">
-            <img src="img/11.jpg" alt="Mano aplicando sandblast sobre una pieza de cerámica" loading="lazy">
+            <img src="img/6.jpg" alt="Mano aplicando sandblast sobre una pieza de cerámica" loading="lazy">
             <button type="button" class="gallery-trigger" data-lightbox-open data-lightbox-index="0" aria-label="Ampliar imagen: Mano aplicando sandblast sobre una pieza de cerámica">
               <svg class="gallery-trigger-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M4 9V5a1 1 0 0 1 1-1h4M15 4h4a1 1 0 0 1 1 1v4M20 15v4a1 1 0 0 1-1 1h-4M9 20H5a1 1 0 0 1-1-1v-4"/></svg>
             </button>
           </figure>
           <figure class="gallery-item" data-reveal="media">
-            <img src="img/12.jpg" alt="Detalle del grabado terminado en superficie de vidrio" loading="lazy">
+            <img src="img/7.jpg" alt="Detalle del grabado terminado en superficie de vidrio" loading="lazy">
             <button type="button" class="gallery-trigger" data-lightbox-open data-lightbox-index="1" aria-label="Ampliar imagen: Detalle del grabado terminado en superficie de vidrio">
               <svg class="gallery-trigger-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M4 9V5a1 1 0 0 1 1-1h4M15 4h4a1 1 0 0 1 1 1v4M20 15v4a1 1 0 0 1-1 1h-4M9 20H5a1 1 0 0 1-1-1v-4"/></svg>
             </button>
           </figure>
           <figure class="gallery-item" data-reveal="media">
-            <img src="img/13.jpg" alt="Conjunto de vasos grabados con logotipo corporativo" loading="lazy">
+            <img src="img/2.jpg" alt="Conjunto de vasos grabados con logotipo corporativo" loading="lazy">
             <button type="button" class="gallery-trigger" data-lightbox-open data-lightbox-index="2" aria-label="Ampliar imagen: Conjunto de vasos grabados con logotipo corporativo">
               <svg class="gallery-trigger-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M4 9V5a1 1 0 0 1 1-1h4M15 4h4a1 1 0 0 1 1 1v4M20 15v4a1 1 0 0 1-1 1h-4M9 20H5a1 1 0 0 1-1-1v-4"/></svg>
             </button>
           </figure>
           <figure class="gallery-item" data-reveal="media">
-            <img src="img/14.jpg" alt="Pieza de cerámica con diseño regional recién grabada" loading="lazy">
+            <img src="img/3.jpg" alt="Pieza de cerámica con diseño regional recién grabada" loading="lazy">
             <button type="button" class="gallery-trigger" data-lightbox-open data-lightbox-index="3" aria-label="Ampliar imagen: Pieza de cerámica con diseño regional recién grabada">
               <svg class="gallery-trigger-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M4 9V5a1 1 0 0 1 1-1h4M15 4h4a1 1 0 0 1 1 1v4M20 15v4a1 1 0 0 1-1 1h-4M9 20H5a1 1 0 0 1-1-1v-4"/></svg>
             </button>
           </figure>
           <figure class="gallery-item" data-reveal="media">
-            <img src="img/15.jpg" alt="Caja con souvenirs de vidrio listos para entrega" loading="lazy">
+            <img src="img/4.jpg" alt="Caja con souvenirs de vidrio listos para entrega" loading="lazy">
             <button type="button" class="gallery-trigger" data-lightbox-open data-lightbox-index="4" aria-label="Ampliar imagen: Caja con souvenirs de vidrio listos para entrega">
               <svg class="gallery-trigger-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M4 9V5a1 1 0 0 1 1-1h4M15 4h4a1 1 0 0 1 1 1v4M20 15v4a1 1 0 0 1-1 1h-4M9 20H5a1 1 0 0 1-1-1v-4"/></svg>
             </button>
           </figure>
           <figure class="gallery-item" data-reveal="media">
-            <img src="img/16.jpg" alt="Vista cercana del relieve dejado por el sandblast en cerámica" loading="lazy">
+            <img src="img/5.jpg" alt="Vista cercana del relieve dejado por el sandblast en cerámica" loading="lazy">
             <button type="button" class="gallery-trigger" data-lightbox-open data-lightbox-index="5" aria-label="Ampliar imagen: Vista cercana del relieve dejado por el sandblast en cerámica">
               <svg class="gallery-trigger-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M4 9V5a1 1 0 0 1 1-1h4M15 4h4a1 1 0 0 1 1 1v4M20 15v4a1 1 0 0 1-1 1h-4M9 20H5a1 1 0 0 1-1-1v-4"/></svg>
             </button>
@@ -3479,7 +3492,7 @@ main section[id] {
         <div class="gallery-cta" data-reveal>
           <div class="gallery-cta-text">
             <svg viewBox="0 0 24 24" class="gallery-cta-icon" aria-hidden="true"><path fill="currentColor" d="M4 5h16v2H4V5Zm0 6h16v2H4v-2Zm0 6h10v2H4v-2Z"/></svg>
-            <p>Si buscas un regalo o souvenir que realmente diga algo, hablemos. Grabados Artesanales Juárez está listo para trabajar tu proyecto.</p>
+            <p>Cuéntanos qué pieza quieres grabar y qué nivel de detalle necesita tu diseño.</p>
           </div>
           <button type="button" class="btn btn-outline" data-wa-trigger>
             <span>Solicita tu cotización</span>
@@ -3495,7 +3508,7 @@ main section[id] {
         <div class="contact-info">
           <p class="eyebrow" data-reveal>Hablemos</p>
           <h2 class="section-title" data-reveal>Solicite su <span class="text-gold">cotización hoy</span></h2>
-          <p class="section-desc" data-reveal>Si tiene un proyecto en mente, ya sea para su empresa o para venta turística, con gusto le orientamos sobre materiales, cantidades y tiempos de entrega. Escríbanos o visítenos.</p>
+          <p class="section-desc" data-reveal>Si tiene un proyecto en mente, con gusto le orientamos sobre material, cantidad, tamaño del grabado y nivel de detalle recomendable para sandblast.</p>
           <ul class="contact-list" data-reveal-group>
             
             <li data-reveal>
@@ -3505,20 +3518,10 @@ main section[id] {
                 <a href="https://wa.me/5566187873" target="_blank" rel="noopener">556 618 7873</a>
               </span>
             </li>
-            <li data-reveal>
-              <span class="contact-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16Zm.9-13H11v6l5.2 3.1.9-1.5-4.2-2.5Z"/></svg></span>
-              <span class="contact-text">
-                <span class="contact-label">Horario</span>
-                <span>Lunes a viernes de 9:00 a 18:00 hrs.</span>
-              </span>
-            </li>
           </ul>
           <div class="contact-actions" data-reveal>
             <button type="button" class="btn btn-primary" data-wa-trigger><span>Pedir por WhatsApp</span></button>
             <div class="social-links social-links--inline">
-              <a href="https://wa.me/5566187873" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
-                <span class="social-link-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2c2.7 0 3.1 0 4.1.06 1.1.05 1.8.22 2.5.47.7.27 1.2.6 1.8 1.15.5.5.9 1.1 1.1 1.8.25.7.42 1.4.47 2.5.06 1 .06 1.4.06 4.1s0 3.1-.06 4.1c-.05 1.1-.22 1.8-.47 2.5-.27.7-.6 1.2-1.15 1.8a4.9 4.9 0 0 1-1.8 1.1c-.7.25-1.4.42-2.5.47-1 .06-1.4.06-4.1.06s-3.1 0-4.1-.06c-1.1-.05-1.8-.22-2.5-.47a4.9 4.9 0 0 1-1.8-1.15 4.9 4.9 0 0 1-1.1-1.8c-.25-.7-.42-1.4-.47-2.5C2 15.1 2 14.7 2 12s0-3.1.06-4.1c.05-1.1.22-1.8.47-2.5.27-.7.6-1.2 1.15-1.8.5-.5 1.1-.9 1.8-1.1.7-.25 1.4-.42 2.5-.47C8.9 2 9.3 2 12 2Zm0 2c-2.65 0-2.98 0-4.03.06-.86.04-1.33.18-1.64.3-.42.16-.72.35-1.03.66-.31.31-.5.61-.66 1.03-.12.31-.26.78-.3 1.64C4.28 9.02 4.28 9.35 4.28 12s0 2.98.06 4.03c.04.86.18 1.33.3 1.64.16.42.35.72.66 1.03.31.31.61.5 1.03.66.31.12.78.26 1.64.3 1.05.06 1.38.06 4.03.06s2.98 0 4.03-.06c.86-.04 1.33-.18 1.64-.3.42-.16.72-.35 1.03-.66.31-.31.5-.61.66-1.03.12-.31.26-.78.3-1.64.06-1.05.06-1.38.06-4.03s0-2.98-.06-4.03c-.04-.86-.18-1.33-.3-1.64a2.8 2.8 0 0 0-.66-1.03 2.8 2.8 0 0 0-1.03-.66c-.31-.12-.78-.26-1.64-.3C14.98 4 14.65 4 12 4Zm0 3.3A4.7 4.7 0 1 1 7.3 12 4.7 4.7 0 0 1 12 7.3Zm0 2A2.7 2.7 0 1 0 14.7 12 2.7 2.7 0 0 0 12 9.3Zm5.2-2.9a1.1 1.1 0 1 1-1.1-1.1 1.1 1.1 0 0 1 1.1 1.1Z"/></svg></span>
-              </a>
               <a href="https://www.facebook.com/share/1ZWfzThVN1/" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
                 <span class="social-link-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg></span>
               </a>
@@ -3536,10 +3539,10 @@ main section[id] {
     <div class="container footer-grid">
       <div class="footer-brand">
         <a href="#inicio" class="brand">
-          <span class="brand-mark"><img src="logo.jpg" alt="Brados artesanales JUAREZ" class="brand-logo"></span>
-          <span class="brand-text"><span class="brand-name">Brados artesanales JUAREZ</span><span class="brand-tagline">Grabado en vidrio y ceramica con sandblast</span></span>
+          <span class="brand-mark"><img src="logo.svg" alt="Grabados artesanales JUAREZ" class="brand-logo"></span>
+          <span class="brand-text"><span class="brand-name">Grabados artesanales JUAREZ</span><span class="brand-tagline">Grabado en vidrio y ceramica con sandblast</span></span>
         </a>
-        <p>Grabados Artesanales Juárez graba vidrio y cerámica con la técnica del sandblast para empresas y el sector turístico que buscan piezas con identidad propia.</p>
+        <p>Grabados artesanales JUAREZ realiza grabado sandblast en vidrio y cerámica para negocios, souvenirs y regalos personalizados.</p>
       </div>
       <div class="footer-col">
         <h4>Navegación</h4>
@@ -3553,15 +3556,13 @@ main section[id] {
       <div class="footer-col">
         <h4>Contacto</h4>
         <ul>
-          <li><br></li>
           <li><a href="https://wa.me/5566187873" target="_blank" rel="noopener">556 618 7873</a></li>
-          <li>Lunes a viernes de 9:00 a 18:00 hrs.</li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <div class="container footer-bottom-inner">
-        <p>&copy; <span id="year"></span> Brados artesanales JUAREZ. Todos los derechos reservados.</p>
+        <p>&copy; <span id="year"></span> Grabados artesanales JUAREZ. Todos los derechos reservados.</p>
         <p class="footer-bottom-tag">Grabado en vidrio y ceramica con sandblast</p>
       </div>
     </div>
@@ -3881,7 +3882,7 @@ document.addEventListener("keydown", (event) => {
 /* =========================================================
    TITULOS: palabras en cascada + barrido de luz en oro/degradado
    ========================================================= */
-const riseTargets = document.querySelectorAll(".section-title, .parallax-content h2");
+const riseTargets = document.querySelectorAll(".section-title, .service-title, .timeline-card h3, .parallax-content h2");
 
 const wrapRiseWords = (el) => {
   [...el.childNodes].forEach((node) => {
